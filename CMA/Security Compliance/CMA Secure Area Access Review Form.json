@@ -1,8 +1,7 @@
 {
     "type": "AdaptiveCard",
     "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-    "version": "1.4",
-    "speak": "<s>CMA Secure Area Access Review Form.</s><s>In Compliance with mandate NIST 800-53 R5, PE-2 (CMA WISP); 45 CFR 164.310(a)(1), 164.310(a)(2)(iii) (HIPAA); AICPA TSC 2017 CC6.4, CC6.5 (SOC 2).</s>",
+    "version": "1.0",
     "body": [
         {
             "type": "ColumnSet",
