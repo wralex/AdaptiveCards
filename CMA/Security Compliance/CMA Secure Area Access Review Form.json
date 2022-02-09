@@ -1,0 +1,333 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.4",
+    "speak": "<s>CMA Secure Area Access Review Form.</s><s>In Compliance with mandate NIST 800-53 R5, PE-2 (CMA WISP); 45 CFR 164.310(a)(1), 164.310(a)(2)(iii) (HIPAA); AICPA TSC 2017 CC6.4, CC6.5 (SOC 2).</s>",
+    "body": [
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Image",
+                            "url": "data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAKUAAACHCAYAAAB3T5nnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAhdEVYdENyZWF0aW9uIFRpbWUAMjAxOTowMzoxNSAxMzoxNTo0MZUEMYYAADPvSURBVHhe7X0JYBbF2f8zu/vue+UmhBhCQERBREU88EA0Ip6I4llbEdGKF161aq31ny+1ivVoP4uIWBXxPlpA9EPrhQcqIkVEBOQSQoBA7uS99pr5P8/sJgRESEKAhLw/mOzxzh6z89vnmHlmFpJIIokkkkgiiSSSSCKJJJJIIokkkkgiiSSSSCKJJJJIIokkkkgiiSSSSCKJJJJIIokkkkgiifYF5i07Lfh/Hsmx0jJy+ao3ctVQTh+WeWgPUIM5TFHTYNWKfuL0G/NtJ1Kqrf5oHo9v2cJrf1wHINYovc4u0yuXlrGRT1d4p0qijdApSZl4/eL+WsGwU0Wi+miW3vsIUAL9FX9GCLQQstTGHNxNr00A4+TRwA4dDHrdJnxaKu5nIMxaEEZNHZg1y0Xt2kU82OUbsXbmZ4Exc1fQ+ZPYPXQaUvIXj0uzeOoI6H7yWDVrwADFn5YLehr+YLlEFA4mWlJu/GPEgL3xGESPGgnaMaeCnqjC/fS4FPyv4SouVR9mVZCk1YAEL3UqFi8SZV8+6zfj77Pr/hujMyXRcuz3pIz/vWcvlt7tYqXgjBu0bif1Bj0diUREbEpGlIoyCaSjZCVAfQ0oMyZB9IizkZQng8+KyqfF5COjFUwKEpOkJ0OSEkFxKYxq4Ju+WGpv+GQyj26YHr55/Ub3hEk0F/stKcWUA0LxhHa91v2U69SDRh3CwgcAWCi8hIlk5Mi/BiI2SURIuUQQKWf9E2oPPwv8R6H6tvFY+bQ8QkqJiUluIzFxncklEtQXBhHZAM7a2YudDR9NDlSsf4YVA9kFSTQD+yUp43/LOR0CGX/V+l4xSO0+1N2Jkk5wkoqY5JKI6C5dgpKERDnZQM54FLR3XoDKQ4eDfuRRELTrPT56RMTEJClJWhJBSWK6CZ0kJCbapwhn8zdgr3hproiX3R26tfxLuTOJnWK/ImX133tmBJh5L6QccJvvsHGaknkosgIlnG26hJRkdFW2QGkpl42kxN+aSErhOOCb/RpsPGwEBA/uBalOg01JzHSJKUlJJERiSiJ6pGywOZmqe1KzBMylzyRE1YoHgiH2N3bdpqS9uRPsN6RMPF7Qn4M1iaUWnOobcB0oqb3QdIwgKYmEmJCQAm1I0bhOJHRJSeoc/+A6SUuXlERO9ZsvYWX/SyE93YEudhk+ra2klLYlkZPWpXSkda1RhbskRXLSuo7ETFSDvew5cCq+n8W4dmvw9nVr3QslsT32C1LG/1FwGjAxFcK5Bb7+vwUlrTeajkhIcmSIiE2WRErhqXBaIilj+EOFAL4IN/4LjK8ArmxUFL6FbdgSWNdrSE5QROq6wGYNTCcPVKUPXvIoZN1AxiGHKVoaScoG9a1IpwdJynyYBZ0fj5xMT8GXpBasZc8Cr1y6HF+AMeFbSue7JUiiKTo8KaOT+16scPufEEjP0PpcBmqXI5GQ6CmTRHQsl4joaQv0uF0V7pIS9y9C2fihIuDdQGViLru0GD2gliE69y/HMEc7HZ9iITjKEIWpISQpkpHUt7tUyCuX5MRtDSWmUQ7W8udB1K0tQwl9efDmdZ94p0vCQ4cmpbF81kST+a7XvvofTe02GNTuZyIRE2gPkoeNJJSkdBORVKAqR0k5D6XjRK74Pk4pvAt18u5DiCIlPjd4Il78ErDVqxTmS5PkVImYaFei1Gwkpy8EvHYF2KtfB1ZRXSMs/53Be75/xjtVEogOS0rjf4+8QlUHvmicNBpsvR5SDANLgwTgcdTMSEIkJvfaIomUnJul6Nw8EIpZL7CRxXvM0YjPebCPUMSdILRfq8yXQu2XpMpdUuqu82Ojl//p86CuWQk1p40DIy/9htwh1z/lnaLTo0OSMjKxYJCqBN7Vynw5arUC0WHXAu8/GFJqVyEBDUlKwcnjJjLKhvJ/MW7dHRxevMY7xR5HfM6EU7kQ96uqPoRISVJSQUKyRAKUz94BtmEVJPqcCDVnjAZ/6dtbgmunnxQcX7rKO7xTo8ORMjqxR56i+t+GQMYgpoTAtzwGrLoW6k6+EpwjToTU+hVSfRMhHceyGbeLg5r9ECssRiNz76J6TlGGLvR7UZ3/XkpKUEH7/D1QSlaClXMQxM8dA9r610Cp30B96R+bscQlGXeUUttTpwY1uHUooHc7AfypgzABpKQDHzoCICMH0j9/EcSSb6Ay1FNKR4ebMSassaHh9/1lXxCSkFlYXBM+7d47AcyxjmPGlNU/gLJ2OZj5h4F59lhI0ThooRwAPQzMn3aaPxS8zzu0U6NDkTL+RM+rwJ9yJeip6Dv4gaUUAMvuDfy0USC65kHWl6+AsakKtoQOTnChjA2d/v9e8g7dpwgW/ul5hRuXiw0b7MgxoyB27jjwQx06SAyU1D7AAulIzFQQvtAtiYkH4lvWudFh1Hfsf3sXsID+FQSz8lggDUhSKpkDQQmgZLQjIKI1oH77OSScMGwcdvVrG2L+0YWFhftEQv4Syue/808r/YCrMzfPVRTpnfulA+SUfwYishFVOBI1Vr3cZvbJadet6LRxmh1CUooivE+fch/oKXngDwP4gkjKTHS2u6BTE3edGr8K1rEnAjus958PGXzW5e2NkISux424NrXskzuEHbepdQDwvvHmgYUKUFJSmUiNp/TzcXaHd0inRIcgZbxrryHgC1wqbS9fSLb1MT0Df0HnwTFkIzl53Nw2Xgif/1CRe1T7RMrHdf8Abj3NRcM9m1iWbCRlCjANiYllBM3/W+PJ3gO8Qzod2j0pSUoyRb+Z6eE0SUgtQJWG5MxqbPJxMAnbXCx87G7vsHYLVlzMg6p9t3CMhSQpqQyC+s6JmLJckpjZDtNv8g7pdGj3pIxmHzQQVdvFMhTMIySQRFFCWKGGW6nctAUT96YUFrdJD82eBissjuDiZnyhEtL0oDgQkvxUNl/AJaYvcGX8iYOon73Tod2TUvGpN9PYGYaVJSuN2vuoDxl9NNltiKREHfhKyvDid7xDOgRCw+77UnD7Sff+MSlIRBojhM6PJKYeCoGq3+Bl71Ro16SMPt4nn6n6OeAjMjaQUpdSEg0y6scmUtYoDmvXduQvQRHOJJSWa2RfPdnH+LLJ8kmNEASh+S+om3II6vXOhXZNStXHLsTKyXFVNlYWSUlKzI+EpPhHVN3C+Xvw7OIOGZtI3Z5MONNkjKdgWBtIRllGHZ0eLK/P30sT6lle9k6DdktKUXSKxhVtGEkNas+jYAY3BAwrDG+bcxuTU4Je0PPeIR0SjsOfEo5VJoONqYxSE9ASnR7NTyHtw7ysnQbtlpRG3qY+qLqPkZUkVZobxY3GpesYoHRhjvVKaHhxiXtEx0TqmcVbBPBXpLQEKqOnDTDJl9HnHxJ9pm+em7tzoN2S0uFsAKrsPBnqJVU2RXS7xCROIimrHKFOk5k7OLjjTEWnBw1Lb3yPTJ4aV/Q+iqUd4mXtFGi3pES1fLSrykhlN1QU3i6Rk3P8zz9JO6t4uZe9QyOlFlag+v6M+sKBhk80JuqKRM2gskFe1k6BdklK8UT/FKFog+QYF7VJJdGgLKw4aX+BmOrm7viQQzGE/X/uBpXTk5T0IpIaV7TBYsrRIfl7J0C7JGUUhQdj6hGyUqiCZEW5SZqTgpeENdivxrYwpixEWzmGDMRaIY1ASyInmitMGRi14mle1v0e7ZKUmmpmoYTM3arGtlYUYwwYF7O8XpH9BrZiL0VDeoWskobyNpZfzddUyPKy7vfAkrdH+Hq5UpKkI92il+Q6qW/nA8q1PyGtsLgCjeUSKp9bVq/s7lIXjOW7Ofd/UC23OwgFcmVlNEpIqhiqLEwCSlUG+4WDsz3QXF7lEpGqxSsvVZGiKfgcOk2zEJW+3UGAkuWSkG6PKgkXsrJQdatshT8TSinf/gY1nFkLvhQiISZy8sjz1oH7UpV4+MACL9t+D6rudoUFCzaEDvzxlgdUn/82M9ANNqHQXG50g6Cug9+nQQL8KxbU9JwUsThFZteYltiSnepfU3zZgA4/4MrctPhNULMuNitLwKqvAtOywVCCUK9nAout+bL/yb86ycu6X6NdkHL+/LLeiiKGViWMYz8vqTv+pFzWOyclnCHUAMz4sQJOOSoXXvqqFAZlBJCYKmgK2pX4T1UY9ytKWXbQtwK1/BKFsW8TjjX33KEHdcgZdY23/vSY+tOq3ynrfgRWX4senw/slCyI5xwIia4pH+aMfXq4l3W/xj4j5ZIlS/REIuMMJuAapijUOFzwf6uroO9BmfD50nIY2z9H5ltZFYePSuugf2YAhvZIl/sab9pboQV1Pdr4x3JEqemIpTHHft2wYfqowgNr3FztH+a8v4wT0cgUiNXJmYTBiOLOiJyDSPD4Q8Hrv73Hy7pfY6+TctasDaHMbDEipLM7GGPHebsl5m2sgw2mAz5bwMg+zWsBkYSkZUNJcIO2HSRo3HLKYg6f7HDntY4gPRPzHvgjcOsBsOJyPk0wIrgTCRmrBGHW3x265tuHvaz7NfYqKR9484crTspPHZOua6cTcRrQQCxSyWurE1AZt2BTxIQtURNqDAdiFoeEzcFwuCQbTcOH/iiEUZVnBX1wIKr1wd1TIaSpsLQyBssqYrCmJgH5qTqc1isDsoNaadTizzlcnziysHu7HSWIpJwM3LweTCIlSUqUmB4pwai/Lnjtd097Wfdr7BVSPj57Rf6rizb9Z2VVon+3sA9O7J4GJ6Eqzk/RYVVNHBZvjsL35VFJpJjlQMIRYHMBDiYiq442ZAoSMKAxsHBfDAlKiVR2A1J119aM4vGowj270yVu/+wQjOqbBT3SAqvK6o0Jt1942HPuUe0Lxtd/+T9hm+dISUkzx5n1kpQ8WmErRmRUYNziDhVd31rscVKOeWrBbV2C6j25YX/O8qoYzN9YD0tRkvGmjEJ0CWgydfVr0B2JmxfUIBdTjt8HqT6Kn/QmM0XQBKUmblYkbNiAUvUnlKprIwb4VQV6p/khB4/PQAm6FO3RZZiq0bhcV2s0SuSB3cIruqb6Lvvg9iGL5AnbAeq/eCTHp5r/AccYCCZKSZrw1SBS1iApK03Vihzrv3bJYi/7fo09RsqiOXO0ZT+Ep22MGL/ORZL0RhXrQ+mVF9LARJvx280R2Ihk6hHSoTuSrytKui66BopAFY0EVIUJaYlNEDKqwW/UgGYn5N06ehCqux26fLOZXYIM66WqrM/mBFfWIznJsNRVVO1ITpqntwalZgjPW4JmQGnEkqTtifeRhsRHYi7Oz9DHjBhyYLsgpjn/oRMdx3qXOUaaJCVN+uqRUkQrSzivPSH82x87xZcm9ggpi95YkoLqdLJfYVd0D+uwujoOCzbVgx9JE0RbsDJuw8GpfjgsTad+bHBIXTsOsg7WYJbZXbTyL05e+fCzwepoFpFT5U3mFcAM9tGDVn2Yc+nR69fn6JbCMlZGEkPDCgyrsMVpJTErJ6ApShYSrytKy5+QkFE8fy7eR6Vpg47G6PBemZCFpsN3myNVa2qMopfKIk9B8b6dvMCc/+CN3LEnAb18jaREmzJeDTxWPTugK5cro+fjjv0fbU7KR19eni1C4sV0XT3rEJRKOoqzGKpZE6VWWZ0BE5dsgcPSA0hCDoejI9JVU+ocwWf5dOXF31517Pt0DhrrbSlHfKRViFPdW0Sl20TbOwXduT1kaN/giX/cZuq8oqI5Wkp24OKwj43SVDZC1bSQRj10KCFXRy1Yjy8DbVegOifV3xVfjHS/EjswI3Tzny7Zd3ammFOkmUH/64KbF4JN9qRHygSRsormS/9LoGRREStumJB9/0abkpIkZFDVXk3xsxH5KKUyVYAYEsBED7ouZsNra6qktDwh0w/zKuPQJ6i9V+Bn999000k/+5SHOWHA/9Mq9WKGDo0E2aBETCQYz0gH+6ijH/SPfOxe98ef44kpXw0RDtyqqsrFPvTKfUhGWpLbXmY6EMfz6Wiv5uCL0yWg1NiC/WbUqQfO9g7fq4jPn9Cbcf4d2EaKS0q3fVJ63vFKYImacwPXLtkn97YvQJ3LbYKiIqGgRTg5qLERGeQpo11YV2/BkrIofL2hHiYvK4c0vNowJKRiOVvCwO+dV2uN2hEhJcL8PTtbjdm9M8AaWADWCf3BGjIQl0cDP7QvanF+AQ0u83L/DOOvO2FuxebE5ZblXBaJmyXROKpxTGbCgly0O/uGfHBoWIO8gIp2qJaBjv3UGR+tPdE7fK+CCXYpE04K0AcCZEJLgr5qQUNvHbtMAIW0dR60GSlFv2XFQV25IoSecgilUAJtuY21cdiMtpy/ZwYcElRhMDo8sbg533Hs4S/ce9qDnxYXkh25Q+BpltqZxnw7GyVjmg9TAHhWGvBuXcDpngu8a3ZvY8Q5Z3jZd4hitBNvHX/iG8J0CiNx6z0iZQwdolgMCYopUm9CHE0K5CheT8lRVDFl5vvr9mo0jlhSlMKYM7aRkGQ/EyFp8itJSmNeIB069OC4lqJNSPmHl74fEdDYH0KoGkNYw1xWugUKqsmyjXWwYnUVHKwrEI/bs8FWzrvrtqG7bNpg45dGsLI+kxNYUQXZ3kwSVGncQekiAphtDNlj7hG/jN/97uQ1MZ99CV7/ObovsnHjKDFjCRPqaxNg4T7y2H0KGyB8fDJJfe/QPQ4r7r8CuDhEfmxKls0rJ02RjaRE5+dTdulSfACdB7v98H8/dUmuT1UeD+pMQ9UNKtqQkYgJP1bFYFl1DI7Ah90fJRSPO+8kos5ld9550hbv0F1CsZ03hZ2ICBro51WUrDiaGYNUHHcutFJTj/ey7xTF4wsjf7zrlGsScetJSUySmEhOWtZURdG4pgAPIiaMPOKUn8Z7h+1R1C96JIc77Cb383xUHkxSbVNZ8WW04ltUYJ3GlmzAbpGSvF3QRDGSsXcApST1vHyPkvHd0jpYWp2AFXUmfI0OjZGw5tpmYgyqU7Temw//jcuXgGXMlc0kcsq/BpXmkhPtME1w+z76ZIh3yC6Bh9+aMOxX4uh4xZGccXyJatHMMPHFQY8dVTkDRWH3/WvOT/28Q/YYfJY9joEzYFsyklYwkKOkIazPAuMWd7pviO8WKct7ZJ2oq+xKIqTgAuagmt6ENlq+j8ExQQ2O8+N77tgb50ecO4uLz2pVvKPiOBMlKSUxGwjpkpI+3IQ67gxzfvhKL/suQXYms9l1MdOeSyo8ThIz7kBNZQxJSc45SksG2YzDvXtSjRv/ffgIVNt3yzJIUm4lpCyrhUnYk7zsnQq79dCx/u5FQgYqUcosKKuHbqi+U1Bdr49Y8H5FHNZHTX6gAte9F/yi1Z978wdiH6Ma+1JQJVGFeZOkuokqFFUfs++nZhXvkF2CJLbgcF0iYVeQpCQVXlUdR244cpwWDU77dkvkCrvvdzt1pFoLsaAoJGxnMuN2ylYbksjolQ9JKez4x4HS7LneIZ0KrSbl2CmLTw9o6hkb6g3YgDZkr/QArEBVvRbXs4FDX1VAqeG88chfznoHWdDqRl82dl1CWOZEYUVtQYEKjcR0pab7VTGejwV5nCrbO2yXmFB8+lLTcu5DVQ6GaUM9loO8cbSP4dOSWlhVFYctMafYy96mMO3Q/Wh6nCilZIOElAnLhWXkZtRWhP0YK/4UM3Q+tJqU6GPfXlIfhxhKl+yQDsu2RNFG4hTDCN9G0U4znRWHhBNtMr9iMFuZjkbfZzKcS8YaNpGajQ4QH2GK4C82pu8IKf7658yE87EpSWlCHXriC8siMnSO4pO+Kq075pp/fnOOl323IYTQjfVzHhOqcgvNrdlojlhYDioPls178Wb7S7vI3q3OiFaRctTjC45fVx8/lQ72o3NQFjXQ3xFQFTOhH6rw3igCNpv2lMeLR7VJ1LfbJGIWCSNiupVGySOm9MwpSWL+0fz6r9d7h+0SxcWXmpZwJiQMx4wbFlTUJODHiijk4Ev2Pb5k6LcpyNebvey7Dfu7WZMUvdfvILOv1tgOKctANiQRMkYfO40IYUzorFKS0CpSrqyO3exXlZCKtRYxafJSPBF126HU3ITqMBPE+/kZqU962dsEoetWzGVO4gkZY0hBsJKYnoTBypVqHBMH/pjxzcPNdny6hMOfOLbzvoUSnmI6KfRtZVUMQj4VVTmDw7KD/V74zyp3bMZuILHgrxfAly9coTwxDj1EvFctdSshqSykBcwomsfxJ8Ljls/zDuuUaDEpjyj6IqdHWqAPNf9ELVsG4wbQDovFbfA7HMpMzuPcmThtJ701rUUiFrsfzMhC+S1vGXPYhJyNdqYZEtyaYs6fgLW/a5A3bjn2ZMvivAYlfTnaxBQRUIcvV49UP+Sl+QuQ6EO97K2CMf+vV4PjvMr7HRKAaDn4Xv4fgNoQ0MA41xwhCUlRQdEFAVM84B3WadFiUmaHlVysv4EU4U0SkmIkaajCoRQTiZ5wd+F8+Wzawj1iD2Xevq4GvfCbhVEfkZVI41iklPHISdFvSFDmWAEh+BRj/oQJzXF+cjMXvRd3+FIbibg5akIcy3NB32w4Ni8Vpi+vUL7eELnEy9oiUBci3QOK8GfRdgwInwLOCYPQu8cXedYUVNcHghPO9wgZqeHcuIF6srzDOy1aTMrKuHNWbcLWGUoTGitDFVhYkA5+G6UmSspUzv+6O972rhC6afWXzIrfTmFdrsREYkoHyFOFKDGp4dn9aKjzB9MJvJn4+sGdzu9YjPdbxsU7JB3zgj7AYoCJfwblpsDF/bqS4DziiicXtUiFG/MfGGDGAv+mexBSitP9GcAzQ2Af3RelJNrj770AVsbpkCgYyR2F3Rm+/scF3uGdGi0iZf7t72U5wjmZbEmKeSNpeQoSMsOvATWtmBZfHFcCn7m59xyCN654BqzIQ2DUAkpNZJAnNbd3gqR3bp7DBP+U1PnOpGY1iDnlpuBd/KqUkDQg7dUfyuVAtRPyUwsKC4IpXtadgs8rSkt8/dDv8LBP0cY9w7UbKTXYjnHgWTpYR+YDE3UQ+Go62JmHLQmP/W+7HDe0L9AiUvZIS9V0RetNzSU0wGvQASnQBSsPFRWYSEqb8zdfnnjOXomODpTl3Sfidc+4xCT1R+T0pKYkgJuk1ORWrnDsKQbX303M/+tIVKu6d5pGHBBj83XurCKHhyKdTspPg5PxhXv8mw3w9srq0E/1Zn8v6w4hvv17BqrqK0zF/ynj9mNo22ZtQ0jPdmyIleRBC8z+YWCxhZ/4QBQyxvaYduloaBEp18TjveoMq5ftCMhPC0AeOgIkMin21jSdOgf4XpszkppMgqKW1PgLchwLkZLI2RAgKwnqSU0LySnVpzUUJedbZlR/l4YfiAWPNn4O5K1po2p8Dl9MhrLhBRbnhHywvDIGbyzdAiW18ZPlzu0Q/++DfRLzJ/zRMOPvoqp+EWxzoHutBumISUaSbyWkfInI/HAiL+nh6HkZA1rXBbu/grRws9H9no8uDCjq691SfNqwAzMgO6RBJqq7oMrg849+/LJ24+Zh06aNxVrYexBFoMVz+vyd6aHx4E+jD26i90Vf7KKPJdEnQPDFoTnTKcnZcakfUZMjIoGpW3DHXGD8baGyeeOe7nFx4ekD71/pAAzrmYHkFPDOykqoTNgwOC/8xO0Zb9wT84XSfD7I4+AMZSDOE0IcgeZBlhvps308pNdbIxv7XdXtOjXSHn4yuDn/1s7cHvlLaBEpD7jrw9v8qvrYCfkZSh+0i7oQKQMqpGgKzPt81T8e+Z8zbvWy7nXEJvW6C9RQMQukBpi+A2JqDaT0iCnJ6SZJUHwUX61O2zKXnZKzUShwUe9M6exQy0LE4pDCN5ScnfF5CRLxEJSm6PSgEUMxkDTVdQMZadkQ7SNjQCm50pIaxmkaFmHUJZCk94fGr37QvfMktkeL1LfhiANoeCo1KpOHSmO3OaeWc4DDj+zxrZdtnyB009qHhRm9HGLVJSKObgupdBp4RSMCG+xNqdIpIUGkjedJL1LvSJxuaUZO3wMz4eqhPWVQBk2Mz2UiyjoF6DgNQRs1R9qp0jSg1ORcDdeQ0pDMCZSIlPBeaFQixKpKUXVfniTkztEiUuqqXq6rmkIzV6BZKSuLrC8kJs/KDmHt7FuEb1k3EwzjFKz86ZjckYAxJAQ6QzQIS44ObPDWKUmCNpA0BpkhB1avL4dpc36Ss3PUJiwahgvVcQuFH5ZUks/N25gaSNiYvBeBBn0RGek+aC6gWPUs4NFCeY9J7BQtk5S24Cay0UQtJadVQUkpyYkK0LJ5u/h6QfD2dWuDN6+9CB2fMSJauRTiRAgkJ0kqIkkDORMkyTznyCOqziw4tEsQstFOpjmNPlhXA8cN6Ar/3RJF7YxquakkpCSPxSTPh+eNu0lK6hheL0rXrlyO5782NH7N+cHxpdsMCU5ix2gRKdHeTyRsh5to1NOcPuSkSqmJthXuoq/CtxuEbln/AnrBZ4pE7b0QraiQ0kpKTle1NxKUpKiUpPUoDS1YVevAZ+vr4N01VfLFm7mojD655NqGUgI2TXQcJTIVKBEZK5GYmGKVNZjnz2CJM4M3lzwjbyqJZqFFpIw7oipKw20sQfalnEjKQmlJ5ORM9PCytRuEb91QiuR80AHncCIIEgYlZwVKsHJJHleCkponKVoNFgrDw7ulweUDcuQEWQpqgS5oU+oUjW6hNI03kBnzkzQkksuEJIyUu+eNo2RM1D3I7fjhwVvWFYVuW9OpRiK2BVpESrChLGpxuwptrMWb62EDOZKkyl37speXq90hZfy6suAt64uCEB0srOjlKNWeE9GKVUQiSaRohUym4we/qkLP1ACchd63gsRcW49OEPVVG5JwLpm9/O7xW2iun7XCqH1emLExhslPQMl4L70Q3uWTaCFa1CQEN31wiK7Af7uG1BSa2Yyag9IxDemRBnlh33zVlxh2aeEANLLaP2L/e0ABU3x9BIjj8d08gSlwxNqed+Zt6jJSM/ENsxwOLy3ZAhUxG3plBGG09RIcJ2ba+PbZjIkqwfliakVCvn4JDltFtqx36iR2Ey0j5Y3v9WFM+SA9oPRK1Zns8+6epkubsm9WqC6gioseHTPoQy93hwF/vE9aSe7Z+eu7X/+6wVIHkL28pDwKP1TEUBsYkBP2w3nmGy+NhFffRqm5FoTYaHItQlFL3imSaEO0jJRj5gQgZP3H7xNDSUp2RzWnKlwGxMbQIDsoM/DoqzcOvtPL3aEwZ37JAGGJry3OQuVxA74qrYdaw4aIKYCDMLvo+lFTbxi01MuexB5Ey2zKaRS4K+aSY6MqqmynTNV9sueDpoCOmvw0ORa8A4I5/DQOLETNXEsr4rKpi5w5Klu3cGBpWoB1irkh2wNaRkoC0/7jOGDXoxShCiRhmxGgCf+AKrK/2adrh/w2tSOU0UTEn2oSUJuQEU+QQA+OerB0xuY+PvaopKreS2g5KW1lKTB9vuX4UL257ZUJdMEPzgzB0IL0wCHZ+ggvZ4fBR1+UDOWOGFRv2rCsMibnT6eJXelFOyDVz+O2+MLNmcTeQMtJ+XRhBRr6H2NFgWErUBYxIejToM50UNowaiK64Yk5S5oVENtegBLyZgufBc02nBXUYH29KVV39xQ/RAy+1gJ7x9MVJrFH0HJSEjh/G63/uuo4lw3nNCEBfS5k/sY6WFtn9FpXat/n5Wz3+ODz9adyLs6gKbDJGqlD1U0R9X4sTwBTvSHmvnjdMckG8L2I1pEy9/MFeOQ8ijesSzCowYqkeIXKmA16qg7duobGD3/ki90aAbg38MaSJbojnNsN7qStQlJSK0JZzIIqVN25IR0qEw6P2M4/vexJ7CW0jpQ0MIzBRGpQqk6g18MVOdl+13BATnTPmBI6slu4zQbx7ymEq1N/he/VyM9K6tDD1mF9nSEnuEr3+2BFVQLKo/bcd247plPO57Mv0TpSErI/mY2ewGcUV1kRQ2cHa5camuctr4Lv1tRCt5TAxU+8tfxSL3e7wxmPfnHBi4vLJs1eXQWLNkfkNyBRMEJF1JL2ZI1h8011iWe97EnsRbSs8Xx73PDRGcjrd3FNSQswSNc5FB6aBSnovULcgYOyAmWqAmfedn6/dvVRoqkzfspYXF89Z8HG6MAqND0o0omG11JnQBDtyC2owoVg81SlyylLiweY3mGtw9Uz84CzfsCcPBAsDffg+ZQqUJ1SsNkKmNY2U9u0G4yZcSqyahT0zLijtZ+B2T1SEm6c8zL+/TWtZiExhx+WBukBDeprTDg4KwgpAXUe+OxRd40YUEZ52gN+M3n+RxvrzdPoQ1DUDpmKaXPERpUdlZ0APqaapgNjNj5c+Jp3SPNBnQfrawcCFxfh070AH3E/ZHgMl1UAwh2/xJiG61moaSgGdQVuf4mEfRV6pn3WWJFXzTgR99+L+QL4WwWeqw7Po+M+InYMST4BnrtoiczbGlz11oXAxDV4fjwvc++L7kmeX1SB6R8LL7diZOpVM9/G488CUAfD8yMXentbhN0n5U0fHAJc/RQLk0sTFGQHFShIdz/i2TVMn7ZTIcWvfKj52OW/H9lvn3+s898fr5kQt/kf4ki+WmReab0Ja9B+rMd1aubaHDFx3Z5V8ejw871Dmo+x04eAUG7Gp+qaLdRDCfAvGpgGXFsAtrYR0iMcDH8u2OIYUMQlWAUXyrxEWMbOhOcucMfNj5nRCxT2KzzHUbh1DJ5z+/k3n4SCb29u1cQPY2ZkoOG2DK+d6+3Bywsi/gIkKAmP1aArf4OnR+LL1AJc+dYRoPLP8bxpeN93wPMX/M37pUXYfVISbvjoSmDKNFqlE+akqHBgug55qT7IQWJSP3nYp364sjJx7bQbjton0TT9i97Qu4RyP6qM2UPIy+4S8kE+fccxGJBtrJvqLVhWESXPe4WVCB1bNfH4lkmJsTPuwtLT97jdYGchsILhTlTPOx92PHbmlZhvEj64FEw3ICmf8n7Zit/+Ox9sZSSuPY7E9bpxUcKBcxRMvXiNu90CXD3zerzmZG+L7vUzcMS10Pu7Vbs1u8nYGY/hM/idXKdziowz3a7plqFtSEm48WMsJJPT8NFJu6DE7JXhEjMD1Xl5LEHDcZf37xq8/E+XDtir30McPWVBwarK6Lvfl8f6U1829dlTVDmBgnkL0oKQqvvRYXNq6mLWufUThzW/sbyoSIGSgY9jqZtO3j8bfMoYlDTN0wxXzfg1ko3MoCKYesGf3Z3bQdqm8DU+3HxvD+FBzN+iOTnhkjd0SPF9hfdLH/5vwK14nn94663D6FkFoPFPcW1rXK3DjoQXzm+xP9F673t7GCY9nI9plaq7Ms5heXkcvkfPdmFZnWxk7xIK9FtTa31w2aT5v6d8ewMvvLfyxMG54TeH9Mjof+MxeTD+mHy48vA8GHFwDgzqlo4vjw5ramKwuLwGpaVR1CJCEkoGFm9DSAFzQTFGN5uQhOdHvYIH3g3Al3t7fg7G0P7cfg52cTWMm9U4oUKzEPaPwJMN8LZc0PwxuwvVoe5lJKRnNxNU3qqJwdqOlM+eVQXMGo1iW0pBMqdGn9AVju6dBtVRCm5g8GNlHJaVx7Izgr6/3vvKDy+Pn7p4j32BYdSTX+Rc9dQ3U59bvPmjt1dXHxexBARVH6iMvguuQkjzoUPmhwx/CMJaCITje5531Vo2p+aYt87Cgv7B28JCo12mODfAs5e1fMaLqaMehoLv/uVt/RzCDiB70OmBJudGm9ByrvY2dg1ywhj/Da5tO20NZ7vHA5K+DPClEtPRJm1qflwsNUkL0XbquwHk+AhtBt5g/yPzdaiJObCh2ob8TBUMy4E+mWHonqrL3pOahBHpnRH4h+bTpj10ef82+TTHxJnL8gwhzvluc7S4KmHnratJyO5CXVVkz1NGwAcaErPe5LA56kA5JsvhRTD5tB2rzV/CjW+kQNz3AT7Crd/xEeLPKPWKvK22xZi3jkfH6F2ssXvQ/njMlZwEsRgUs7BZL8LVM4/BY7/Cc6xCcvdptE8FXINOSesn2Bo7HR075XU87/lom+L9sJ+8X0wk6dnw/PlSgzYXbScpGzBpOJHrfCzogu9KLVhXxSE9zOCBkX2o6RLW1bhjqb/YWA21Bk+pNfkf44b96V0vfj/lzheXjKSPjronahkenb58yN9mLL/f4PCuzZV/HpwZzkvXfXBQRkh2ga6tpZA0R4amLdxcJ52ajXUGR0Le3WJCEqL6CHzgx3lbRMgKEL6tzkNbQxH4XKh5yH4fX4Tp3l7chapY6OQE7RocbkIiomMk7kQCtaoN8WeQkpDdjmsrwNA/gV6LSvD8DU1B9O3sUd56s9H2krIB4+ZkgwbUIzKSJhRL9TOoT5C1qUC/XBWKzj0I7pu5Cnqik0FthSm6giqVmevq4hUHhPSF2SHtAx9jizXO1pSaEFlUWZ0yonu3GrCjCrryAZ/wFeBTHiBADGYMjuccCiwhMqhZZ31dAjbWG1RhUB6ntm+sASRmFKVjVcIC02E0dyVWCnsUJp9JHnPLQOoq7HsZK/hibw/hGXQWrvXW2x5jZ+K1xIv4hvVEsV/gSrxGSTcXdOXMnTbhSA9eXYePgmz/WXjM97juCqXdkZSysZx9hHYpOl2j3ECcq2b8Efd5MxKj5LT4cHjpouZ/ac5btj0oxK28/BKUIA8JwRIUuCHwckTLHzdb8NuXlkFpnQM/lCdgeUUcVlUmUIJG9YqYnYcadUR5gj9eYYg5lZyv01VnXYaifr+wsmpdBVfWRQyxoca0vq42nGcrEs64sqhzxMaonVFab8G80jpYVZWAGgOlIklHFJ1bIjZswN/KIpYMtxNClKBUO7NVhCSk6uhcsNO8LQ8cVfkeBINsfMli9MldeO6CBVjp73i/0G9DwBA7D4Bx1FsxXx2S+TVMP5sKsVUgKcnYGCQeR6dmireX8Anucx0ekuS+JhqlGdhzpCS8eamJqvEevHH0wkRj7wNHJzJiqBA3GWyKOLCy2oSlVTEIhhVJnlVVhkyrqw1Yg79tqLdTUgOBNFxmrE0YaQu3RJSf8Lefak1YW2OiSjYxL33ZIYF5TdgStaEE91ELQCXKjqqEgtdS8YVQ6fm9g07sefDUsBbZOduAi15YwVneFp4TIsCUlrcXtgRc4PWw8i3FlY4MpuL2Vk+X8Tu8tZ/jin/TLMQX49v4IUwbtRaPbZvZTNYciXap7LV6DZ65aOuQYl1dhM/E/aCXlMbK2XK9mdizpGzApMJ3wGaFuPYw3uzW5gfPeKBJANJDClw0KBcq0PD8odyAxZvj8P2WOCzB9AMm9NrRUeEwYkAOdO8SgGXoyS/FfUvLKU9M5luKUpekJRGbJCSR3kSv34VYhMQ5D3K+OB8mn757ffGM9fHWXDDYiAb+Hu6tYl29FRc9viVJubW9l7Gh6MjsWFpqsuG9F6jiEXdHG0Fl5Mln4AvRVEqiliQzgm39woUQF8hepGZiz9mUv4Tr5wzAq96ONgg+KNakjY0UO3pCUppte1tyfnVKcoPyMDxckX14FJgrhwpJ4Aoj+53eNfoVjxAqqbppEEWbrxW9CzvE2Bm34bn/7m0h0LDnvnNh2og9179/1YxpWI6zwFaOhRdHukHHDV7vVrwCBd+O3qZXZtysEBrRn+L9JtBudCd+pX51YJ/j43GFUmtsyoauSoFmBZkSQmDZqWkJpbnbtz8It7c20HMxCqV0syb32juSsimeKlwCkwuvwRsnkf5nLJTXFESUI83ksa9JIs5RBwwN7HK4iklpmJVD/rY1b8MBcqpmUh/3gIPXebLwiTYj5I5AjbIOiuY9Cuaq76YI2rNxX5MGdzEC1h090NtwYXEK7DgGj2/yErUBVPYrPGeuS0BU4Yxdj49+nFyiW4W/Ne0xIqaN9tZ2ib1PygZMKlyAZCkC0zgBK3U4PtCn8G2jB1wlK7lFQNuK3lQh5iIh/wKKMxjANwyeHP6QdLjaHNurahaAwHYN0m0J6VAIdHS2ey5PXhrB8jaJjKcIH75t5QtxNx63BNRE2039Ta0PQrgtDQKex/WTQOGDgbMTGpdCnIupyUcZ2BDZAtAMkGhpX7juw/74tg3EdCjeXh5WBjkUKfjwvUqX0gKlHkPbVFAzw0+YdylwcyE8dWazmx12C9QILeAbb4sqvgK4Mqw1/bzNAvXElNT+gNdJQS/6hEb1TRg9/RCUWnPwGeTJberxcZSjZJ4xMwaCwr7F4+6F50dtnah1d9U3NU8JILNhI55hMDx3wY7HxFPUFCife1vEth0HnGyH9kfKjgDqbzb5t/j0tr75JBmeH4XqdA9Atovqm3AthoQ7aRtSEsbOeBarsml3oxvYcdXMqXiPF4DqHL6Nd7w7pGzaRivgaTzuOu+Xn8O1O7/DaxW4O8R0KFh0ya4ikfad+u7IkMEWYms7IYHBMG+t7dFVmgbo5W5nUzaAHLmmzUNCjIar3joN7+kcXJ+1DSF3F+EABXNcINcFmyqXvwSKqhfsPW8LgSq85KhdxjskSdlaKOxVlBRbZ5gT7FK45vWtbZdtifpAVqNU2xEoMFiwpl8r64UExvtD04crj3n72gjOtfgSkHe9EHotdNsidwYBc7w1Qg6WY5ejXJOkbC16pFOI2yvuBoJUOdfR62wlSC1e/e8B0n7cHoqza7JToHADXI+YGsxnt6mdSzGdjLxuhGAvNysgmPOFeG9bJTUNE9nFfFNJUrYWNJZGV2gMTZNKZ3dIYrUGKfofQKj/hlXxn/e2KE3bc38Btj4bJePWOdXJU2eibcesc0H2YwaePIEedvOmfHzxQmryaxrUfSqU1u10gt0kKXcHZFty9TKspIa2whzcflZKlJbg6uln4DnuQVLVgRbcwehJvlVS+inmaQdwB3lttfEYzAPzF76TKZRtz6H8gq3aFG4wsRuAIthnEGAt+KiAoIh0FyTFOR/jbe0QSVLuLqaNXA6Kch6uue2ADI5DifJWsyWmHGxGjgqjIN6FO2zkF163Jo1+NBriKHcAgeoawBuyK978xdGIKo2KbFL3XA5O2zks50K8P9dJYbB4pxFJ20PAh/jCNcnPrthZm2WySait4Dbb3IUq81p8rNQEYmJl3I9PeDrw9DXbkE2O6zm8F6prqugizOPGkDY0K8muQegHTErIM/GH8ZgPSSszoY3GJmFaChpUgJ1Wus25x85E21KMAO4bvE23pzv4rACPK8Dr3YRpiPeLCwHv4L43pQlg81Uy1IzKlKIgebRBmIEGhXlNO7ACX7y70dZdDAVdSn5xfLerMfIw72iUkLe4Oz0IeB/vpQhfkBJw0qualiFJyrbGNW/1AYdfik8WpSc7HiuZKoycorVYMeStU/NOHu4/DrdJJRJ538daehWi1r9kZJVszhH/xt8y5PGMxoyDK2moAZ2Ok/uBGq0fgKmjnpa/EahtkKm9fzbm+qqZUzD/OHdDNh+RRKXIcDyPCOGSPGNXegrqXcu4HVjNeLzWTbiH7rfOu3/3HqjbkwlyYLa9fgMoUp6Jx3GtPy41LCOWgSW8a+D1ZKcI4UvcMxWeG/W8t41ZktgzIHIIlEwaH4QVfixWCkkZchJoHqYKfPTLUYJ8g7oU7dHUtdtIu9/MTgPVoqgemr3VRkfHBB99/BFBoWsUD+mjmEg1gNtbftaYviPQOHKh4HmbnJOrXNqoMhwOz6VwBRy0+Xz4AuSnrZUOiRAZ4CgRUEwTVDyG0JBfs9PQPqzY4TBf2cGAZVYsE5iWkNekMhg+BTQTy6BTVyVFpiu4v6JN21KTSCKJJJJIIokkkkgiiSSSSCKJJJJIIokkkkgiiSSS2KMA+P/KsYDxU6PB6gAAAABJRU5ErkJggg=="
+                        }
+                    ],
+                    "width": "auto",
+                    "style": "emphasis"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "**CMA Secure Area Access Review Form**",
+                            "horizontalAlignment": "Center",
+                            "size": "ExtraLarge",
+                            "wrap": true
+                        }
+                    ],
+                    "width": "stretch",
+                    "spacing": "None",
+                    "style": "emphasis"
+                }
+            ]
+        },
+        {
+            "type": "TextBlock",
+            "text": "*Compliance Mandate: NIST 800-53 R5, PE-2 (CMA WISP); 45 CFR 164.310(a)(1), 164.310(a)(2)(iii) (HIPAA); AICPA TSC 2017 CC6.4, CC6.5 (SOC 2)*",
+            "wrap": true,
+            "spacing": "Small",
+            "separator": true,
+            "horizontalAlignment": "Center",
+            "color": "Accent"
+        },
+        {
+            "type": "TextBlock",
+            "text": "An authorized approver shall use this form to review and approve physical access to the following secure areas:",
+            "wrap": true
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "**11 Corporate Woods**",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Data Center",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ],
+            "spacing": "None"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "**11 Corporate Woods**",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Telecom Room",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ],
+            "spacing": "None"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "**11 Corporate Woods**",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "UPS Room",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ],
+            "spacing": "None"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "width": "auto",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "**700 Troy-Schenectady Rd**",
+                            "wrap": true
+                        }
+                    ]
+                },
+                {
+                    "type": "Column",
+                    "width": "stretch",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "Data Center",
+                            "wrap": true
+                        }
+                    ]
+                }
+            ],
+            "spacing": "None"
+        },
+        {
+            "type": "TextBlock",
+            "text": "**Reporting Month**",
+            "separator": true
+        },
+        {
+            "type": "Input.ChoiceSet",
+            "style": "compact",
+            "id": "ReportingMonth",
+            "choices": [
+                {
+                    "title": "January",
+                    "value": "January"
+                },
+                {
+                    "title": "February",
+                    "value": "February"
+                },
+                {
+                    "title": "March",
+                    "value": "March"
+                },
+                {
+                    "title": "April",
+                    "value": "April"
+                },
+                {
+                    "title": "May",
+                    "value": "May"
+                },
+                {
+                    "title": "June",
+                    "value": "June"
+                },
+                {
+                    "title": "July",
+                    "value": "July"
+                },
+                {
+                    "title": "August",
+                    "value": "August"
+                },
+                {
+                    "title": "September",
+                    "value": "September"
+                },
+                {
+                    "title": "October",
+                    "value": "October"
+                },
+                {
+                    "title": "November",
+                    "value": "November"
+                },
+                {
+                    "title": "December",
+                    "value": "December"
+                }
+            ],
+            "spacing": "None"
+        },
+        {
+            "type": "TextBlock",
+            "text": "**Access reports reviewed**",
+            "color": "Attention",
+            "separator": true
+        },
+        {
+            "type": "Input.Toggle",
+            "title": "11CW Data Center",
+            "id": "Reviewed11CWDataCenter",
+            "spacing": "None"
+        },
+        {
+            "type": "Input.Toggle",
+            "title": "11CW Telecom Room",
+            "id": "Reviewed11CWTelecomRoom",
+            "spacing": "None"
+        },
+        {
+            "type": "Input.Toggle",
+            "title": "11CW UPS Room",
+            "id": "Reviewed11CWUPSRoom",
+            "spacing": "None"
+        },
+        {
+            "type": "Input.Toggle",
+            "title": "700TS Data Center",
+            "id": "Reviewed700TSDataCenter",
+            "spacing": "None"
+        },
+        {
+            "type": "TextBlock",
+            "text": "**Approvals**",
+            "color": "Attention"
+        },
+        {
+            "type": "Input.Toggle",
+            "title": "Approved All",
+            "id": "ApprovedAll",
+            "spacing": "None"
+        },
+        {
+            "type": "Input.Toggle",
+            "title": "Approved with Corrections",
+            "id": "ApprovedWithCorrections",
+            "spacing": "None"
+        },
+        {
+            "type": "ColumnSet",
+            "columns": [
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "TextBlock",
+                            "text": "**If corrections, Ticket #**",
+                            "color": "Warning"
+                        }
+                    ],
+                    "width": "auto"
+                },
+                {
+                    "type": "Column",
+                    "items": [
+                        {
+                            "type": "Input.Text",
+                            "placeholder": "(ticket #)",
+                            "id": "TicketNo",
+                            "spacing": "None",
+                            "maxLength": 15
+                        }
+                    ],
+                    "width": "stretch"
+                }
+            ],
+            "spacing": "None"
+        },
+        {
+            "type": "TextBlock",
+            "text": "**Notes**"
+        },
+        {
+            "type": "Input.Text",
+            "placeholder": "(enter notes, if any, here)",
+            "id": "Notes",
+            "spacing": "None",
+            "isMultiline": true
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.Http",
+            "title": "Submit",
+            "method": "POST",
+            "url": "https://prod-00.westus.logic.azure.com:443/workflows/ea5cfa85dcc8403cbefd4c54d3794f01/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=oSJjf0mSFgsmP_LqcS-CiW4eMQT6iRZDsM0LxM3ICBw",
+            "body": "{ 'list': 'Approval Requests', 'id': 1, 'reportMonth': '{{ReportingMonth.value}}', 'reviewed11CwDataCenter': '{{Reviewed11CWDataCenter.value}}', 'reviewed11CwTelecomRoom': '{{Reviewed11CWTelecomRoom.value}}', 'reviewed11CwUpsRoom': '{{Reviewed11CWUPSRoom.value}}', 'reviewed700TsDataCenter': '{{Reviewed700TSDataCenter.value}}', 'isApprovedAll': '{{ApprovedAll.value}}', 'isApprovedWithCorrections': '{{ApprovedWithCorrections.value}}', 'ticketNo': '{{TicketNo.value}}', 'notes': '{{Notes.value}}'}",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": ""
+                }
+            ]
+        }
+    ]
+}
