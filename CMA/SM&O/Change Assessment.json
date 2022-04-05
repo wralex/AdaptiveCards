@@ -1,0 +1,143 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "Container",
+            "id": "headingArea",
+            "style": "emphasis",
+            "items": [
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "Image",
+                                    "url": "${cmaLogo}"
+                                }
+                            ],
+                            "width": "auto"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "TextBlock",
+                                    "text": "${title}",
+                                    "horizontalAlignment": "Center",
+                                    "size": "ExtraLarge",
+                                    "wrap": true,
+                                    "weight": "Bolder"
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "AssessmentInfo",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Assessment #",
+                    "id": "assessNumberLabel",
+                    "size": "ExtraLarge",
+                    "weight": "Bolder",
+                    "color": "Accent",
+                    "spacing": "None"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "[${assessment.Number}](${EnvironmentBaseUrl}/lightning/r/BMCServiceDesk__Change_Assessment__c/${assessment.id}/view)",
+                    "id": "assessNumberValue",
+                    "size": "Medium",
+                    "weight": "Bolder",
+                    "color": "Default",
+                    "spacing": "None"
+                }
+            ]
+        },
+        {
+            "type": "Container",
+            "id": "dcrHeading",
+            "items": [
+                {
+                    "type": "TextBlock",
+                    "text": "Change Request Information",
+                    "id": "changeRequestLabel",
+                    "size": "ExtraLarge",
+                    "weight": "Bolder",
+                    "color": "Accent",
+                    "separator": true
+                },
+                {
+                    "type": "ColumnSet",
+                    "columns": [
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "FactSet",
+                                    "facts": [
+                                        {
+                                            "title": "DCR #:",
+                                            "value": "[${dcr.number}](${dcr.id})"
+                                        },
+                                        {
+                                            "title": "Project:",
+                                            "value": "${dcr.project}"
+                                        },
+                                        {
+                                            "title": "Creator:",
+                                            "value": "${dcr.creator}"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "width": "stretch"
+                        },
+                        {
+                            "type": "Column",
+                            "items": [
+                                {
+                                    "type": "FactSet",
+                                    "facts": [
+                                        {
+                                            "title": "Queue:",
+                                            "value": "${dcr.queue}"
+                                        },
+                                        {
+                                            "title": "Staff:",
+                                            "value": "${dcr.staff}"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "width": "stretch"
+                        }
+                    ],
+                    "spacing": "Small"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "Change Description",
+                    "spacing": "Small",
+                    "size": "Medium",
+                    "weight": "Bolder",
+                    "color": "Accent"
+                },
+                {
+                    "type": "TextBlock",
+                    "text": "${dcr.description}",
+                    "spacing": "None"
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}
