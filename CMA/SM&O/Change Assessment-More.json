@@ -1,0 +1,156 @@
+{
+    "type": "AdaptiveCard",
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0",
+    "body": [
+      {
+        "type": "TextBlock",
+        "text": "Additional Deployment Change Request Information",
+        "horizontalAlignment": "Center",
+        "wrap": true,
+        "size": "Large",
+        "weight": "Bolder",
+        "color": "Accent"
+      },
+      {
+        "type": "ColumnSet",
+        "columns": [
+          {
+            "type": "Column",
+            "items": [
+              {
+                "type": "FactSet",
+                "facts": [
+                  {
+                    "title": "**Begin**",
+                    "value": "{{DATE(${dcr.BMCServiceDesk__Scheduled_Start_Date__c}, COMPACT)}} {{TIME(${dcr.BMCServiceDesk__Scheduled_Start_Date__c})}}"
+                  },
+                  {
+                    "title": "**End**",
+                    "value": "{{DATE(${dcr.BMCServiceDesk__Scheduled_End_Date__c}, COMPACT)}} {{TIME(${dcr.BMCServiceDesk__Scheduled_End_Date__c})}}"
+                  },
+                  {
+                    "title": "**Outage Req.**",
+                    "value": "${dcr.MISCNY_Outage_Required__c}"
+                  },
+                  {
+                    "title": "**Comm. Req.**",
+                    "value": "${dcr.MISCNY_Communication_Required__c}"
+                  }
+                ]
+              }
+            ],
+            "width": "stretch"
+          },
+          {
+            "type": "Column",
+            "items": [
+              {
+                "type": "FactSet",
+                "facts": [
+                  {
+                    "title": "**Initiator**",
+                    "value": "${dcr.BMCServiceDesk__Initiator_First_Name__c} ${dcr.BMCServiceDesk__Initiator_Last_Name__c}"
+                  },
+                  {
+                    "title": "**Approval**",
+                    "value": "${dcr.Approval_Status_Label__c}"
+                  },
+                  {
+                    "title": "**Status**",
+                    "value": "${dcr.BMCServiceDesk__Status__c}"
+                  },
+                  {
+                    "title": "**Category**",
+                    "value": "${dcr.BMCServiceDesk__Change_Category__c}"
+                  }
+                ]
+              }
+            ],
+            "width": "stretch"
+          }
+        ],
+        "spacing": "Small"
+      },
+      {
+        "type": "ColumnSet",
+        "columns": [
+          {
+            "type": "Column",
+            "items": [
+              {
+                "type": "FactSet",
+                "facts": [
+                  {
+                    "title": "**CR/EP**",
+                    "value": "${dcr.EP_Tracking_Number__c}"
+                  },
+                  {
+                    "title": "**Incidents**",
+                    "value": "${dcr.Incidents}"
+                  }
+                ]
+              }
+            ],
+            "width": "stretch"
+          },
+          {
+            "type": "Column",
+            "items": [
+              {
+                "type": "FactSet",
+                "facts": [
+                  {
+                    "title": "**Redmine**",
+                    "value": "${dcr.MISCNY_Redmine_Tracking_Number_s__c}"
+                  },
+                  {
+                    "title": "**Jira**",
+                    "value": "${dcr.MISCNY_JIRA_Tracking_Number_s__c}"
+                  }
+                ]
+              }
+            ],
+            "width": "stretch"
+          }
+        ],
+        "spacing": "Small"
+      },
+      {
+        "type": "TextBlock",
+        "text": "Roll Out Plan",
+        "size": "Medium",
+        "weight": "Bolder",
+        "color": "Good"
+      },
+      {
+        "type": "TextBlock",
+        "text": "${dcr.BMCServiceDesk__Roll_Out_Plan_Details__c}",
+        "spacing": "None"
+      },
+      {
+        "type": "TextBlock",
+        "text": "Back Out Plan",
+        "size": "Medium",
+        "weight": "Bolder",
+        "color": "Good"
+      },
+      {
+        "type": "TextBlock",
+        "text": "${dcr.BMCServiceDesk__Back_out_Plan_Details__c}",
+        "spacing": "None"
+      },
+      {
+        "type": "TextBlock",
+        "text": "Validation Plan",
+        "size": "Medium",
+        "weight": "Bolder",
+        "color": "Good"
+      },
+      {
+        "type": "TextBlock",
+        "text": "${dcr.Validation_Plan__c}",
+        "spacing": "None"
+      }
+    ]
+  }
